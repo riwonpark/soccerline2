@@ -1,0 +1,65 @@
+@charset "utf-8";
+@import url(http://ppurin1004.dothome.co.kr/common/css/reset.css);
+
+body{font:14px Malgun Gothic,"맑은고딕",gulim,"굴림",sans-serif;color:#222;padding-top:125px;}
+a{text-decoration:none;color:#222;}
+
+#header_wrap{height:125px;background:url(../images/common/bg_header_wrap.png) 0 0 repeat-x;position:absolute;left:0;top:0;width:100%;}
+#header{width:1000px;margin:0 auto;position:relative;}
+#header h1{display:block;padding-top:71px;}
+.util_menu{position:absolute;top:8px;right:0;}
+.util_menu li{float:left;padding-left:12px;margin-left:10px;background:url(../images/common/bar_utilmenu.png) 0 6px no-repeat;}
+.util_menu li:first-child{padding:0;margin:0;background:none;}
+.util_menu a{font-size:12px;color:#282828;}
+.util_search a{text-indent:-9999px;display:inline-block;width:18px;height:16px;background:url(../images/common/bg_icon.png) -7px -6px no-repeat;}
+#gnb{position:absolute;top:75px;left:374px;}
+#gnb>li{float:left;font-size:17px;font-weight:bold;margin-left:48px;}
+#gnb>li:first-child{margin:0;}
+#gnb>li a.on{color:#2652b4;}
+#gnb ul{display:none;position:absolute;top:56px;left:0;}
+#gnb ul a{color:#fff;font-size:15px;font-weight:normal;}
+#gnb ul>li{float:left;margin-left:27px;}
+#gnb ul>li:first-child{margin:0;}
+#gnb>li.m1 ul{display:none;left:0;}
+#gnb>li.m2 ul{left:177px;} 
+#gnb>li.m3 ul{left:315px;} 
+#gnb>li.m4 ul{left:385px;} 
+#gnb>li.m5 ul{left:411px;} 
+
+#visual_wrap{width:1280px;margin:0 auto 45px;}
+
+
+
+#footer{width:1000px;margin:0 auto;}
+#footer *{color:#b5b5b5;}
+.soccer_logo_list{padding:28px 0;position:relative;}
+.soccer_logo_list a{text-indent:-9999px;display:block;width:45px;margin:0 auto;height:60px;background:url(../images/common/bg_icon.png) -18px -335px no-repeat;}
+.soccer_logo_list ul{overflow:hidden;padding:0 69px;}
+.soccer_logo_list li{float:left;width:11.111111%;}
+.soccer_logo_list li:first-child+li a{background-position-x:-123px;}
+.soccer_logo_list li:first-child+li+li a{background-position-x:-226px;}
+.soccer_logo_list li:first-child+li+li+li a{background-position-x:-329px;}
+.soccer_logo_list li:first-child+li+li+li+li a{background-position-x:-433px;}
+.soccer_logo_list li:first-child+li+li+li+li+li a{background-position-x:-535px;}
+.soccer_logo_list li:first-child+li+li+li+li+li+li a{background-position-x:-637px;}
+.soccer_logo_list li:first-child+li+li+li+li+li+li+li a{background-position-x:-740px;}
+.soccer_logo_list li:first-child+li+li+li+li+li+li+li+li a{background-position-x:-841px;}
+.soccer_logo_list .prevBtn, .soccer_logo_list .nextBtn{position:absolute;left:0;top:50%;margin-top:-10px;width:45px;height:30px;}
+.soccer_logo_list .prevBtn{text-indent:-9999px;display:block;background:url(../images/common/bg_icon.png) -257px -3px no-repeat;}
+.soccer_logo_list .nextBtn{text-indent:-9999px;display:block;background:url(../images/common/bg_icon.png) -312px -3px no-repeat;left:auto;right:13px;}
+.footer_menu_wrap{border-top:1px solid #b5b5b5;border-bottom:1px solid #b5b5b5;padding:10px 20px;margin-bottom:45px;}
+.footer_menu_wrap ul{float:left;overflow:hidden;}
+.footer_menu_wrap li{float:left;padding-left:12px;margin-left:12px;left:35px;line-height:35px;background:url(../images/common/bar_utilmenu.png) 0 13px no-repeat;}
+.footer_menu_wrap li:first-child{padding:0;margin:0;background:none;}
+#btn_search_site{float:right;width:183px;height:35px;line-height:35px;padding-left:10px;}  /* 자바스크립트로 처리할예정 */
+.footer_bottom h3{float:left;margin-right:80px;}
+.footer_bottom address{float:left;}
+.logo{float:left;}
+.logo a{text-indent:-9999px;display:block;width:135px;height:25px;background:url(../images/common/bg_icon.png) -86px -163px no-repeat;margin-bottom:10px;}
+.address_wrap{float:left;margin-left:80px;}
+.address_wrap address{font-size:13px;}
+.address_wrap span{padding-left:8px;margin-left:10px;background:url(../images/common/bar_utilmenu.png) 0 5px no-repeat;}
+.copyright{text-align:center;font-size:12px;font-family:tahoma, sans-serif;padding-top:8px;}
+.web_access{float:right;text-indent:-9999px;display:block;width:70px;height:70px;background:url(../images/common/bg_icon.png) -86px -225px no-repeat;}
+
+.dim{width:100%;height:100%;position:fixed;left:0;top:0;background:url(../images/common/bg_dim.png);display:none;}
